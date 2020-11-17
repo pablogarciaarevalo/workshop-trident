@@ -21,7 +21,7 @@ ls /mnt/datalake/
 >  SLIDE 10
 
 ```shell
-tridentctl import volume BackendForNAS datalake -f 5_CSI_Snapshot/pvc-datalake.yaml -n trident
+tridentctl import volume ontap-nas-thin datalake -f 5_CSI_Snapshot/pvc-datalake.yaml -n trident
 ```
 
 Se muestran el Persistent Volume y Persistent Volume Claim importado.
