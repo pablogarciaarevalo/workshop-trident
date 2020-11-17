@@ -55,17 +55,13 @@ Se verifica los Persistent Volumes creados.
 
 ### Escalado horizontal de la aplicación
 
-Un ejemplo de escalado del frontal web para la capa de presentación creado como un Deployment.
+Un ejemplo de escalado horizontal, tanto para la capa de presentación creado como un Deployment como para la capa del backend creado como un Statefulset. Se accede a las acciones:
 
 <img src="images/scale_app_1.png">
 
-Un ejemplo de escalado del frontal web para la capa de presentación creado como un Statefulset.
+Y se incrementa el número de PODs
 
 <img src="images/scale_app_2.png">
-
-Se edita el fichero YAML pasando las réplicas de 1 a 2.
-
-<img src="images/scale_app_3.png">
 
 Se verifican el número de PODs en el deployment y el statefulset.
 
